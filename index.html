@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+
+    
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <h2 style="text-align: center"> Account Login</h2>
+
+          <div class="col">
+            <img
+              src="https://cdn.logo.com/hotlink-ok/logo-social.png"
+              alt="logo"
+              class="logo"
+            />
+          </div>
+
+          <div class="col">
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              value=""
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              value=""
+              required
+            />
+            <input type="submit" value="Login" onclick="checkUser()" >
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="bottom-container">
+      <div class="row">
+        <div class="col">
+          <a href="#" style="color: white" class="btn">Sign up</a>
+        </div>
+        <div class="col">
+          <a href="#" style="color: white" class="btn">Forgot password?</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
